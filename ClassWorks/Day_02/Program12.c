@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int No=0;
+
+    printf("Enter number:\n");
+    if (scanf("%d",&No)!=1)
+    {
+        fprintf(stderr,"Invalid Input\n");
+
+        return EXIT_FAILURE;
+    }
+
+    printf("Input Is Valid\n");
+
+   
+
+    return EXIT_SUCCESS;
+}
