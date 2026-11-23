@@ -1,0 +1,30 @@
+//input : 10
+//output 1 3 5 7 9
+
+#include<stdio.h>
+#include<stdlib.h>
+
+
+void Display(int iNo)
+{
+    int icnt=0;
+
+    for(icnt=1; icnt<=iNo; icnt++)
+    {
+        printf("%d\t",icnt);
+        icnt++;
+    }
+    printf("\n");
+}
+
+int main()
+{
+
+    int ivalue=0;
+
+    printf("Enter the freqeuncy:\n");
+    scanf("%d",&ivalue);
+
+    Display(ivalue);
+    return EXIT_SUCCESS;
+}
